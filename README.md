@@ -1,4 +1,5 @@
 # CommonSourceAmplifier
+## Circuit 1
 
 **Aim**
 <p>To perform the DC, Transient, AC Analysis of a Common Source amplifier circuit using LTSpice and extract the associated parameters.</p>
@@ -125,6 +126,9 @@ Increase in gain if there is low amplitude output.
 **AC Analysis**<br>
 Small signal analysis of the circuit to determine the gain of the circuit.<br>
 We observe that there is low gain due to low value of gm and rd.Increase gm and Rd to increase gain of the circuit.
+
+
+## Circuit 2
 
 
 
