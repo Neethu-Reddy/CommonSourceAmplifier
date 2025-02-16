@@ -65,7 +65,17 @@ Power = VDD*I<sub>d</sub>
   <td>2.836A</td>
 </tr>
 </table>
-                
+
+**Transient Analysis**<br>
+1.Apply a sine wave input of frequency 1KHz and amplitude 50mV and Vgs=0.9V.<br>
+2.Go to simulate option in the tab and click on transient analysis and enter the stop time as 5ms(.tans 5ms).<br>
+3.Run the circuit and observe the response of the circuit to a time varying signal.<br>
+
+**AC Analysis**<br>
+1.Go to simulate option and click on AC analysis and enter the time of sweep as decade, no. of points as 20, frequency 0.1Hz-1THz.<br>
+2.Click ok and run the circuit to obtain the gain and frequency response of the circuit.<br>
+
+**Result**
 
 
 
