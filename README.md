@@ -11,8 +11,6 @@
 
 ![image](https://github.com/user-attachments/assets/73aaa79e-0a39-4354-8a70-12257f968516)
 
-
-
 **Given parameters :**
 
 **Length** :180nm<br>
@@ -110,8 +108,6 @@ Therefore A<sub>v</sub> = -0.1
 
 ![image](https://github.com/user-attachments/assets/fd22cca9-80e0-44bf-8ab3-9892f4a283dc)
 
-
-
 I<sub>d</sub> = 27.78uA<br>
 V<sub>DS</sub> = 1.77V<br>
 Q-Point : (1.77V, 27.78uA)<br>
@@ -146,6 +142,20 @@ We observe that there is low gain due to low value of gm and rd.Increase gm and 
 
 
 ## Circuit 2
+
+**Aim**
+<p>To perform the DC, Transient, AC Analysis of a Common Source amplifier circuit using LTSpice and extract the associated parameters.</p>
+
+**Components Required**
+<p>TSMC 180nm NMOS transistor (CMOSN),PMOS transistor(PMOSN) and voltage sources(2).</p>
+
+**Circuit Diagram**
+
+![image](https://github.com/user-attachments/assets/a2d884f8-391a-4ecd-978e-45d2188c39e7)
+
+
+
+
 
 
 
