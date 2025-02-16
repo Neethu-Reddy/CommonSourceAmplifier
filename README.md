@@ -112,6 +112,22 @@ Gain = -20dB
 
 **Inference**
 
+**DC Analysis**<br>
+Current directly depends on the width of the MOSFET.Current varies with the width of the MOSFET.<br>
+Variation in I<sub>d</sub> is due to the channel length modulation.<br>
+If I<sub>d</sub> is too low, we need to increase W for proper biasing.
+
+**Transient Analysis**<br>
+Analysis used to determine the signal distortion, DC shift between input and output and signal amplification.<br>
+Vds needs to be checked to ensure saturation if distortion occurs.<br>
+Increase in gain if there is low amplitude output.
+
+**AC Analysis**<br>
+Small signal analysis of the circuit to determine the gain of the circuit.<br>
+We observe that there is low gain due to low value of gm and rd.Increase gm and Rd to increase gain of the circuit.
+
+
+
 
 
 
