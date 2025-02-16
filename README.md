@@ -37,7 +37,34 @@ Power = VDD*I<sub>d</sub>
 3.Click on run to run the circuit.<br>
 4.DC operating point is obtained.<br>
 
-
+**Tabular Column**
+<table>
+<tr>
+  <td>Length</td>
+  <td>Width</td>
+  <td>I<sub>d</sub></td>
+</tr>
+<tr>
+  <td>180nm</td>
+  <td>1um</td>
+  <td>0.152mA</td>
+</tr>
+<tr>
+  <td>180nm</td>
+  <td>2um</td>
+  <td>0.275mA</td>
+</tr>
+<tr>
+  <td>1um</td>
+  <td>1um</td>
+  <td>2.855A</td>
+</tr>
+<tr>
+  <td>500nm</td>
+  <td>500nm</td>
+  <td>2.836A</td>
+</tr>
+</table>
                 
 
 
