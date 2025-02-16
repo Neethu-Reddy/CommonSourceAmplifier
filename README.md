@@ -9,7 +9,11 @@
 
 **Circuit Diagram**
 
-**Given parameters**
+![image](https://github.com/user-attachments/assets/73aaa79e-0a39-4354-8a70-12257f968516)
+
+
+
+**Given parameters :**
 
 **Length** :180nm<br>
 **V<sub>DD</sub>** :1.8V<br>
@@ -68,9 +72,15 @@
 2.Go to simulate option in the tab and click on transient analysis and enter the stop time as 5ms(.tans 5ms).<br>
 3.Run the circuit and observe the response of the circuit to a time varying signal.<br>
 
+![image](https://github.com/user-attachments/assets/0284b9c3-0453-45bb-8ce5-8296d806765f)
+
+
 **AC Analysis**<br>
 1.Go to simulate option and click on AC analysis and enter the time of sweep as decade, no. of points as 20, frequency 0.1Hz-1THz.<br>
 2.Click ok and run the circuit to obtain the gain and frequency response of the circuit.<br>
+
+![image](https://github.com/user-attachments/assets/29dac24a-713f-4c72-8164-21d91f6129a4)
+
 
 **Calculation**
 
@@ -98,17 +108,24 @@ Therefore A<sub>v</sub> = -0.1
 
 **DC Analysis**
 
+![image](https://github.com/user-attachments/assets/fd22cca9-80e0-44bf-8ab3-9892f4a283dc)
+
+
+
 I<sub>d</sub> = 27.78uA<br>
 V<sub>DS</sub> = 1.77V<br>
 Q-Point : (1.77V, 27.78uA)<br>
 
 **Transient Analysis**
 
+![image](https://github.com/user-attachments/assets/3d1851ea-acdd-43aa-a400-e0821cb694e6)
+
 Vout=1.7V<br>
 We can observe 180degree phase shift between i/p and o/p signals.<br>
 
 **AC Analysis**
 
+![image](https://github.com/user-attachments/assets/ad524e72-e1b1-466c-bd8a-e2782763901d)
 Gain = -20dB
 
 **Inference**
