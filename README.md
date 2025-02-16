@@ -11,7 +11,7 @@
 **Given parameters**
 
 **Length** :180nm<br>
-**VDD** :1.8V<br>
+**V<sub>DD</sub>** :1.8V<br>
 **Power** :50uW<br>
 **Threshold Voltage** :0.36V<br>
 **Resistor** :1K<br>
@@ -23,10 +23,6 @@
 <p>3.Create a new folder and save the LTSpice file in this folder along with the library file</p>
 <p>4.Calculate the drain current value for the given power=50uW.</p>
 
-Power = VDD*I<sub>d</sub>
-<p>I<sub>d</sub>= Power/Voltage<br>
-                 = 50uW/1.8V<br>
-                 = 27.78uA</p><br>
                 
 **DC Analysis**
 <p>DC Analysis is done to check if the MOSFET is operating in the saturation region and to obtain the DC operation point.</p>
@@ -75,7 +71,57 @@ Power = VDD*I<sub>d</sub>
 1.Go to simulate option and click on AC analysis and enter the time of sweep as decade, no. of points as 20, frequency 0.1Hz-1THz.<br>
 2.Click ok and run the circuit to obtain the gain and frequency response of the circuit.<br>
 
+**Calculation**
+
+Power = V<sub>DD</sub>*I<sub>d</sub>
+<p>I<sub>d</sub>= Power/Voltage<br>
+                 = 50uW/1.8V<br>
+                 = 27.78uA</p><br>
+
+Loop equation of the above circuit:<br>
+V<sub>DD</sub> = V<sub>DS</sub> + I<sub>d</sub>*R<sub>d</sub><br>
+1.8 = V<sub>DS</sub> + 27.78uA*1K<br>
+V<sub>DS</sub> = 1.8 - 0.027<br>
+V<sub>DS</sub> = 1.77V<br>
+
+Therefore, the operation point (V<sub>DS</sub>,I<sub>d</sub>) = (1.77V,27.7uA)
+
+Gain = -gm*R<sub>d</sub><br>
+gm = 2I<sub>d</sub>/V<sub>OV</sub><br>
+gm = 55.56uA/0.54<br>
+gm = 0.10mS<br>
+
+Therefore A<sub>v</sub> = -0.1
+
 **Result**
+
+**DC Analysis**
+
+I<sub>d</sub> = 27.78uA<br>
+V<sub>DS</sub> = 1.77V<br>
+Q-Point : (1.77V, 27.78uA)<br>
+
+**Transient Analysis**
+
+Vout=1.7V<br>
+We can observe 180degree phase shift between i/p and o/p signals.<br>
+
+**AC Analysis**
+
+Gain = -20dB
+
+**Inference**
+
+
+
+
+
+
+
+
+
+                            
+                                     
 
 
 
