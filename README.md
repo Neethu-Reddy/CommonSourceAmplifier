@@ -60,8 +60,8 @@
 </tr>
 <tr>
   <td>500nm</td>
-  <td>500nm</td>
-  <td>2.836A</td>
+  <td>480nm</td>
+  <td>2.738A</td>
 </tr>
 </table>
 
@@ -106,11 +106,11 @@ Therefore A<sub>v</sub> = -0.1
 
 **DC Analysis**
 
-![image](https://github.com/user-attachments/assets/fd22cca9-80e0-44bf-8ab3-9892f4a283dc)
+![image](https://github.com/user-attachments/assets/9db60f72-feb8-4a21-a998-5fe943e85111)
 
 I<sub>d</sub> = 27.78uA<br>
 V<sub>DS</sub> = 1.77V<br>
-Q-Point : (1.77V, 27.78uA)<br>
+Q-Point : (1.77V, 27.78uA) for length 500nm and width 480nm.<br>
 
 **Transient Analysis**
 
@@ -122,6 +122,7 @@ We can observe 180degree phase shift between i/p and o/p signals.<br>
 **AC Analysis**
 
 ![image](https://github.com/user-attachments/assets/ad524e72-e1b1-466c-bd8a-e2782763901d)
+
 Gain = -20dB
 
 **Inference**
@@ -152,6 +153,72 @@ We observe that there is low gain due to low value of gm and rd.Increase gm and 
 **Circuit Diagram**
 
 ![image](https://github.com/user-attachments/assets/a2d884f8-391a-4ecd-978e-45d2188c39e7)
+
+**Given parameters :**
+
+**Length** :180nm<br>
+**V<sub>DD</sub>** :1.8V<br>
+**Power** :50uW<br>
+
+**Procedure**
+<p>1.Design the CS amplifier as per the circuit diagram using LTSpice.</p>
+<p>2.Set the components values as per the given parameters.</p>
+<p>3.Create a new folder and save the LTSpice file in this folder along with the library file</p>
+<p>4.Calculate the drain current value for the given power=50uW.</p>
+
+**DC Analysis**
+
+**Procedure**<br>
+1.After setting up the circuit as per the circuit diagram, apply the dc voltage VDD=1.8V and Vgs=0.7V.<br>
+2.Go to Simultae option in the tab and the DC opt option and click 'ok'.<br>
+3.Do the trail and error method to get the appropriate biasing point by adjusting the width and length of the PMOS and NMOS. Click on run to run the circuit.<br>
+4.DC operating point is obtained.<br>
+
+**Tabular Column**
+<table>
+<tr>
+  <td>Length</td>
+  <td>Width</td>
+  <td>I<sub>d</sub></td>
+</tr>
+<tr>
+  <td>180nm</td>
+  <td>1um</td>
+  <td>22.72uA</td>
+</tr>
+<tr>
+  <td>180nm</td>
+  <td>2um</td>
+  <td>54.45uA</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+</table>
+
+**Transient Analysis**<br>
+1.Apply a sine wave input of frequency 1KHz and amplitude 50mV and Vgs=0.7V.<br>
+2.Go to simulate option in the tab and click on transient analysis and enter the stop time as 5ms(.tans 5ms).<br>
+3.Run the circuit and observe the response of the circuit to a time varying signal.<br>
+
+**AC Analysis**<br>
+1.Go to simulate option and click on AC analysis and enter the time of sweep as decade, no. of points as 20, frequency 0.1Hz-1THz.<br>
+2.Click ok and run the circuit to obtain the gain and frequency response of the circuit.<br>
+
+
+
+
+
+
+
+
 
 
 
