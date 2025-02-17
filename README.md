@@ -70,9 +70,6 @@
 2.Go to simulate option in the tab and click on transient analysis and enter the stop time as 5ms(.tans 5ms).<br>
 3.Run the circuit and observe the response of the circuit to a time varying signal.<br>
 
-![image](https://github.com/user-attachments/assets/490fcd80-4d39-4c16-9919-dd31b940d62d)
-
-
 **AC Analysis**<br>
 1.Go to simulate option and click on AC analysis and enter the time of sweep as decade, no. of points as 20, frequency 0.1Hz-1THz.<br>
 2.Click ok and run the circuit to obtain the gain and frequency response of the circuit.<br>
@@ -114,9 +111,9 @@ Q-Point : (1.77V, 27.78uA) for length 500nm and width 480nm.<br>
 
 **Transient Analysis**
 
-![image](https://github.com/user-attachments/assets/3d1851ea-acdd-43aa-a400-e0821cb694e6)
+![image](https://github.com/user-attachments/assets/f6d7c2bf-1140-45cf-9736-2548466fd475)
 
-Vout=1.7V<br>
+Vout=1.77V<br>
 We can observe 180degree phase shift between i/p and o/p signals.<br>
 
 **AC Analysis**
