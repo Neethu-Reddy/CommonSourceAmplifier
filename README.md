@@ -70,7 +70,7 @@
 2.Go to simulate option in the tab and click on transient analysis and enter the stop time as 5ms(.tans 5ms).<br>
 3.Run the circuit and observe the response of the circuit to a time varying signal.<br>
 
-![image](https://github.com/user-attachments/assets/0284b9c3-0453-45bb-8ce5-8296d806765f)
+![image](https://github.com/user-attachments/assets/490fcd80-4d39-4c16-9919-dd31b940d62d)
 
 
 **AC Analysis**<br>
