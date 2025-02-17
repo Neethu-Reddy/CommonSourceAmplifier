@@ -168,7 +168,7 @@ We observe that there is low gain due to low value of gm and rd.Increase gm and 
 **Procedure**<br>
 1.After setting up the circuit as per the circuit diagram, apply the dc voltage VDD=1.8V and Vgs=0.7V.<br>
 2.Go to Simultae option in the tab and the DC opt option and click 'ok'.<br>
-3.Do the trail and error method to get the appropriate biasing point by adjusting the width and length of the PMOS and NMOS. Click on run to run the circuit.<br>
+3.Do the trail and error method to get the appropriate biasing point by adjusting the width of the PMOS and NMOS. Click on run to run the circuit.<br>
 4.DC operating point is obtained.<br>
 
 **Tabular Column**
@@ -189,14 +189,14 @@ We observe that there is low gain due to low value of gm and rd.Increase gm and 
   <td>54.45uA</td>
 </tr>
 <tr>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>180nm</td>
+  <td>1.5um</td>
+  <td>40.83uA</td>
 </tr>
 <tr>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>180nm</td>
+  <td>0.38um</td>
+  <td>27.76uA</td>
 </tr>
 </table>
 
@@ -208,6 +208,35 @@ We observe that there is low gain due to low value of gm and rd.Increase gm and 
 **AC Analysis**<br>
 1.Go to simulate option and click on AC analysis and enter the time of sweep as decade, no. of points as 20, frequency 0.1Hz-1THz.<br>
 2.Click ok and run the circuit to obtain the gain and frequency response of the circuit.<br>
+
+**Calculation**
+
+Power = V<sub>DD</sub>*I<sub>d</sub>
+<p>I<sub>d</sub>= Power/Voltage<br>
+                 = 50uW/1.8V<br>
+                 = 27.78uA</p><br>
+
+**Result**
+
+**DC Analysis**
+
+![image](https://github.com/user-attachments/assets/cacef813-8392-4fbf-abf8-e667e61d2cff)
+
+Vout obtained is 0.78V.<br>
+Operating point (0.78V, 27.78uA) for width 0.38um and length 180nm.<br>
+
+**Transient Analysis**
+
+![image](https://github.com/user-attachments/assets/84b42dda-57ce-4941-8723-da3affe01739)
+
+
+**AC Analysis**
+
+![image](https://github.com/user-attachments/assets/44a1cd7f-eefb-4a3d-a736-2414f03b1bad)
+
+
+                 
+
 
 
 
