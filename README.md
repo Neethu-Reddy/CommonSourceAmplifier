@@ -114,7 +114,6 @@ Q-Point : (1.77V, 27.78uA) for length 500nm and width 480nm.<br>
 ![image](https://github.com/user-attachments/assets/f6d7c2bf-1140-45cf-9736-2548466fd475)
 
 Vout=1.77V<br>
-We can observe 180degree phase shift between i/p and o/p signals.<br>
 
 **AC Analysis**
 
