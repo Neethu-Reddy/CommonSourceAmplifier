@@ -111,7 +111,8 @@ Q-Point : (1.77V, 27.78uA) for length 500nm and width 480nm.<br>
 
 **Transient Analysis**
 
-![image](https://github.com/user-attachments/assets/f6d7c2bf-1140-45cf-9736-2548466fd475)
+![image](https://github.com/user-attachments/assets/fcaf7b84-8ec4-4539-866f-83188517806a)
+
 
 Vout=1.77V<br>
 
@@ -227,7 +228,7 @@ Operating point (0.78V, 27.78uA) for width 0.38um and length 180nm.<br>
 
 **Transient Analysis**
 
-![image](https://github.com/user-attachments/assets/84b42dda-57ce-4941-8723-da3affe01739)
+![image](https://github.com/user-attachments/assets/fa0ab357-b628-43b7-84ac-0a306dc819d8)
 
 
 **AC Analysis**
