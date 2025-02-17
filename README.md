@@ -217,6 +217,11 @@ Power = V<sub>DD</sub>*I<sub>d</sub>
                  = 50uW/1.8V<br>
                  = 27.78uA</p><br>
 
+Gain = Vout/Vin<br>
+     = 0.78/1.8<br>
+     = 0.43<br>
+     
+
 **Result**
 
 **DC Analysis**
@@ -234,6 +239,8 @@ Operating point (0.78V, 27.78uA) for width 0.38um and length 180nm.<br>
 **AC Analysis**
 
 ![image](https://github.com/user-attachments/assets/44a1cd7f-eefb-4a3d-a736-2414f03b1bad)
+
+Gain = -3.67dB
 
 **Inference**
 
