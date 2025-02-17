@@ -149,7 +149,8 @@ We observe that there is low gain due to low value of gm and rd.Increase gm and 
 
 **Circuit Diagram**
 
-![image](https://github.com/user-attachments/assets/a2d884f8-391a-4ecd-978e-45d2188c39e7)
+![image](https://github.com/user-attachments/assets/27c32a6d-140c-47eb-8d8a-672cdfeb8971)
+
 
 **Given parameters :**
 
@@ -181,17 +182,17 @@ We observe that there is low gain due to low value of gm and rd.Increase gm and 
 <tr>
   <td>180nm</td>
   <td>1um</td>
-  <td>22.72uA</td>
+  <td>51.36uA</td>
 </tr>
 <tr>
   <td>180nm</td>
-  <td>2um</td>
-  <td>54.45uA</td>
+  <td>0.5um</td>
+  <td>32.08uA</td>
 </tr>
 <tr>
   <td>180nm</td>
-  <td>1.5um</td>
-  <td>40.83uA</td>
+  <td>0.4um</td>
+  <td>28.43uA</td>
 </tr>
 <tr>
   <td>180nm</td>
@@ -233,6 +234,14 @@ Operating point (0.78V, 27.78uA) for width 0.38um and length 180nm.<br>
 **AC Analysis**
 
 ![image](https://github.com/user-attachments/assets/44a1cd7f-eefb-4a3d-a736-2414f03b1bad)
+
+**Inference**
+
+DC Voltage at Vout will depend on the transistor characteristics and the biasing conditions of V1 and V2.With V1 at 1.8V we would expect Vout to be between 0-1.8V.
+The amplitude and DC offset of this output waveform will be determined by the DC operating point. Width is directly propotional to the drain current.
+
+
+
 
 
                  
